@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		934DCCD62392EFAB0024D3AB /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934DCCD52392EFAB0024D3AB /* AddViewController.swift */; };
+		934DCCD82392F1B20024D3AB /* AddTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934DCCD72392F1B20024D3AB /* AddTableViewDataSource.swift */; };
+		934DCCDB2392F3CF0024D3AB /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934DCCDA2392F3CF0024D3AB /* TextFieldTableViewCell.swift */; };
+		934DCCDD2392F9040024D3AB /* SegmentedControlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934DCCDC2392F9030024D3AB /* SegmentedControlTableViewCell.swift */; };
+		934DCCDF239306E60024D3AB /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934DCCDE239306E60024D3AB /* Transaction.swift */; };
+		934DCCE1239309230024D3AB /* TransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934DCCE0239309230024D3AB /* TransactionController.swift */; };
+		934DCCE523930C910024D3AB /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934DCCE423930C910024D3AB /* TransactionTableViewCell.swift */; };
 		9365B1502392E8BE00C11A92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365B14F2392E8BE00C11A92 /* AppDelegate.swift */; };
 		9365B1522392E8BE00C11A92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365B1512392E8BE00C11A92 /* SceneDelegate.swift */; };
-		9365B1542392E8BE00C11A92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365B1532392E8BE00C11A92 /* ViewController.swift */; };
-		9365B1572392E8BE00C11A92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9365B1552392E8BE00C11A92 /* Main.storyboard */; };
+		9365B1542392E8BE00C11A92 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365B1532392E8BE00C11A92 /* TransactionsViewController.swift */; };
 		9365B1592392E8BF00C11A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9365B1582392E8BF00C11A92 /* Assets.xcassets */; };
 		9365B15C2392E8BF00C11A92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9365B15A2392E8BF00C11A92 /* LaunchScreen.storyboard */; };
 		9365B1672392E8C000C11A92 /* PokerHomeGameTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365B1662392E8C000C11A92 /* PokerHomeGameTrackerTests.swift */; };
@@ -27,11 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9365B14C2392E8BE00C11A92 /* PokerHomeGameTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerHomeGameTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		934DCCD52392EFAB0024D3AB /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		934DCCD72392F1B20024D3AB /* AddTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableViewDataSource.swift; sourceTree = "<group>"; };
+		934DCCDA2392F3CF0024D3AB /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		934DCCDC2392F9030024D3AB /* SegmentedControlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlTableViewCell.swift; sourceTree = "<group>"; };
+		934DCCDE239306E60024D3AB /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		934DCCE0239309230024D3AB /* TransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionController.swift; sourceTree = "<group>"; };
+		934DCCE423930C910024D3AB /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		9365B14C2392E8BE00C11A92 /* Poker Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poker Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9365B14F2392E8BE00C11A92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9365B1512392E8BE00C11A92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9365B1532392E8BE00C11A92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9365B1562392E8BE00C11A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9365B1532392E8BE00C11A92 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		9365B1582392E8BF00C11A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9365B15B2392E8BF00C11A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9365B15D2392E8BF00C11A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +70,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		934DCCD42392EF9C0024D3AB /* Add View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				934DCCE323930C710024D3AB /* Data Sources */,
+				934DCCD52392EFAB0024D3AB /* AddViewController.swift */,
+			);
+			path = "Add View Controller";
+			sourceTree = "<group>";
+		};
+		934DCCD92392F3BB0024D3AB /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				934DCCDC2392F9030024D3AB /* SegmentedControlTableViewCell.swift */,
+				934DCCDA2392F3CF0024D3AB /* TextFieldTableViewCell.swift */,
+				934DCCE423930C910024D3AB /* TransactionTableViewCell.swift */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		934DCCE323930C710024D3AB /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				934DCCD72392F1B20024D3AB /* AddTableViewDataSource.swift */,
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
 		9365B1432392E8BE00C11A92 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +109,7 @@
 		9365B14D2392E8BE00C11A92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9365B14C2392E8BE00C11A92 /* PokerHomeGameTracker.app */,
+				9365B14C2392E8BE00C11A92 /* Poker Game.app */,
 				9365B1622392E8C000C11A92 /* PokerHomeGameTrackerTests.xctest */,
 			);
 			name = Products;
@@ -79,13 +118,11 @@
 		9365B14E2392E8BE00C11A92 /* PokerHomeGameTracker */ = {
 			isa = PBXGroup;
 			children = (
-				9365B14F2392E8BE00C11A92 /* AppDelegate.swift */,
-				9365B1512392E8BE00C11A92 /* SceneDelegate.swift */,
-				9365B1532392E8BE00C11A92 /* ViewController.swift */,
-				9365B1552392E8BE00C11A92 /* Main.storyboard */,
-				9365B1582392E8BF00C11A92 /* Assets.xcassets */,
-				9365B15A2392E8BF00C11A92 /* LaunchScreen.storyboard */,
-				9365B15D2392E8BF00C11A92 /* Info.plist */,
+				9365B1732392ED9900C11A92 /* Controllers */,
+				9365B1712392ED8E00C11A92 /* Models */,
+				9365B1722392ED9500C11A92 /* Views */,
+				9365B1742392ED9D00C11A92 /* View Controllers */,
+				9365B1762392EDAB00C11A92 /* Supporting Files */,
 			);
 			path = PokerHomeGameTracker;
 			sourceTree = "<group>";
@@ -97,6 +134,59 @@
 				9365B1682392E8C000C11A92 /* Info.plist */,
 			);
 			path = PokerHomeGameTrackerTests;
+			sourceTree = "<group>";
+		};
+		9365B1712392ED8E00C11A92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				934DCCDE239306E60024D3AB /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9365B1722392ED9500C11A92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				934DCCD92392F3BB0024D3AB /* Table Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9365B1732392ED9900C11A92 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				934DCCE0239309230024D3AB /* TransactionController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9365B1742392ED9D00C11A92 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				934DCCD42392EF9C0024D3AB /* Add View Controller */,
+				9365B1752392EDA400C11A92 /* Transactions View Controller */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9365B1752392EDA400C11A92 /* Transactions View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9365B1532392E8BE00C11A92 /* TransactionsViewController.swift */,
+			);
+			path = "Transactions View Controller";
+			sourceTree = "<group>";
+		};
+		9365B1762392EDAB00C11A92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9365B14F2392E8BE00C11A92 /* AppDelegate.swift */,
+				9365B1512392E8BE00C11A92 /* SceneDelegate.swift */,
+				9365B1582392E8BF00C11A92 /* Assets.xcassets */,
+				9365B15A2392E8BF00C11A92 /* LaunchScreen.storyboard */,
+				9365B15D2392E8BF00C11A92 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,7 +206,7 @@
 			);
 			name = PokerHomeGameTracker;
 			productName = PokerHomeGameTracker;
-			productReference = 9365B14C2392E8BE00C11A92 /* PokerHomeGameTracker.app */;
+			productReference = 9365B14C2392E8BE00C11A92 /* Poker Game.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9365B1612392E8C000C11A92 /* PokerHomeGameTrackerTests */ = {
@@ -182,7 +272,6 @@
 			files = (
 				9365B15C2392E8BF00C11A92 /* LaunchScreen.storyboard in Resources */,
 				9365B1592392E8BF00C11A92 /* Assets.xcassets in Resources */,
-				9365B1572392E8BE00C11A92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9365B1542392E8BE00C11A92 /* ViewController.swift in Sources */,
+				9365B1542392E8BE00C11A92 /* TransactionsViewController.swift in Sources */,
+				934DCCD82392F1B20024D3AB /* AddTableViewDataSource.swift in Sources */,
+				934DCCDF239306E60024D3AB /* Transaction.swift in Sources */,
+				934DCCDD2392F9040024D3AB /* SegmentedControlTableViewCell.swift in Sources */,
 				9365B1502392E8BE00C11A92 /* AppDelegate.swift in Sources */,
+				934DCCE1239309230024D3AB /* TransactionController.swift in Sources */,
+				934DCCE523930C910024D3AB /* TransactionTableViewCell.swift in Sources */,
+				934DCCDB2392F3CF0024D3AB /* TextFieldTableViewCell.swift in Sources */,
+				934DCCD62392EFAB0024D3AB /* AddViewController.swift in Sources */,
 				9365B1522392E8BE00C11A92 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9365B1552392E8BE00C11A92 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9365B1562392E8BE00C11A92 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9365B15A2392E8BF00C11A92 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,15 +452,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CDZYS766G;
-				INFOPLIST_FILE = PokerHomeGameTracker/Info.plist;
+				INFOPLIST_FILE = "PokerHomeGameTracker/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaronwojnowski.PokerHomeGameTracker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Poker Game";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -382,15 +471,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CDZYS766G;
-				INFOPLIST_FILE = PokerHomeGameTracker/Info.plist;
+				INFOPLIST_FILE = "PokerHomeGameTracker/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaronwojnowski.PokerHomeGameTracker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Poker Game";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
