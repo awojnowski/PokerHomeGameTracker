@@ -6,8 +6,4 @@ A simple iOS app written in Swift which helps track home poker game buyins. See 
 Screenshots
 -----------
 
-![Home](https://i.imgur.com/fPspluQ.png)
-
-![Add Transaction](https://i.imgur.com/5Goz6yJ.png)
-
-![Summary](https://i.imgur.com/HjcxWk1.png)
+![Home](https://i.imgur.com/fPspluQ.png) ![Add Transaction](https://i.imgur.com/5Goz6yJ.png) ![Summary](https://i.imgur.com/HjcxWk1.png)
